@@ -17,9 +17,11 @@
 .navbar{
     font-family:"MyCalligraphyFont",cursive;
     display:flex;
+    align_items:center;
     gap:8px;
 }
 .navbar a{
+    margin: 0 10px;
     color:black;
     text-decoration: none;
     padding: 12px 18px;
@@ -27,6 +29,7 @@
     display: inline-block;
     border-radius: 4px;
     transition:0.3s;
+    font-weight:bold;
 }
 .navbar a:hover{
     background-color:lightslategray;
@@ -52,6 +55,10 @@ img{
 
 .image_container{
     position: relative;
+    text-align:center;
+    width:100%;
+    max-width:600px;
+    margin:20px auto;
     display: inline-block;
 }
 
